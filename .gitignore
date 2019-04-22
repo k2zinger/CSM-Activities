@@ -1,0 +1,6 @@
+# Microsoft Fakes
+FakesAssemblies/
+.vs/
+packages/
+*/bin/
+*/obj/
