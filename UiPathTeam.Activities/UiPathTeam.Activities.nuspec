@@ -7,7 +7,7 @@
     <authors>Kristopher Kim</authors>
     <owners>kkim</owners>
     <projectUrl>https://github.com/k2zinger/CSM-Activities</projectUrl>
-    <iconUrl>https://github.com/k2zinger/CSM-Activities/CS-logo-icon.png</iconUrl>
+    <iconUrl>https://github.com/k2zinger/CSM-Activities/blob/master/CS-logo-icon.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>UiPath Studio Activities written by CSMs</description>
     <copyright>Copyright 2019</copyright>
