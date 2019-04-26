@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>CSM-Activities</id>
-    <version>$version$</version>
+    <version>$appveyor_build_version$</version>
     <title>$title$</title>
     <authors>Kristopher Kim</authors>
     <owners>kkim</owners>
@@ -14,8 +14,8 @@
 	<tags>csm uipath studio excel</tags>
 	<releaseNotes>Excel GetColumnLabel</releaseNotes>
   </metadata>
-  <files>
+  <!--<files>-->
     <!--<file src="$OutputPath$\*.*" target="lib\net461" />-->
-	<file src="bin\Debug\*.dll" target="lib\net461" />
-  </files>
+	<!--<file src="bin\Debug\*.dll" target="lib\net461" />
+  </files>-->
 </package>
