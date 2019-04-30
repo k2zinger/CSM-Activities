@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UiPathTeam.Activities", "Ui
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UiPathTeam.Activities.Test", "UiPathTeam.Activities.Test\UiPathTeam.Activities.Test.csproj", "{A57239F8-0CE6-4F34-9FA1-81755517D9B2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UiPathTeam.Activities.Design", "UiPathTeam.Activities.Design\UiPathTeam.Activities.Design.csproj", "{925413D5-D52A-4885-A35C-F602E01F0045}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{A57239F8-0CE6-4F34-9FA1-81755517D9B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A57239F8-0CE6-4F34-9FA1-81755517D9B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A57239F8-0CE6-4F34-9FA1-81755517D9B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{925413D5-D52A-4885-A35C-F602E01F0045}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{925413D5-D52A-4885-A35C-F602E01F0045}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{925413D5-D52A-4885-A35C-F602E01F0045}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{925413D5-D52A-4885-A35C-F602E01F0045}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
