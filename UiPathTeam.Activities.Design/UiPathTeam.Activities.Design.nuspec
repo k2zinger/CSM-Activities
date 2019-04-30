@@ -11,8 +11,8 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>UiPath Studio Activities written by CSMs</description>
     <copyright>Copyright 2019</copyright>
-	<tags>csm uipath studio excel</tags>
-	<releaseNotes>Excel GetColumnLabel</releaseNotes>
+	<tags>csm uipath studio excel core while break continue</tags>
+	<releaseNotes>WhileLoop with associated Break and Continue activities</releaseNotes>
   </metadata>
   <!--<files>-->
     <!--<file src="$OutputPath$\*.*" target="lib\net461" />-->
