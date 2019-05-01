@@ -4,3 +4,4 @@ FakesAssemblies/
 packages/
 */bin/
 */obj/
+.local/
