@@ -5,6 +5,7 @@ using System.Data;
 
 namespace UiPathTeam.Activities
 {
+    [DisplayName("Get Column Letter")]
     public class GetColumnLetter : CodeActivity
     {
         #region Properties
