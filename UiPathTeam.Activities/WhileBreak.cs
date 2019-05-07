@@ -1,9 +1,10 @@
-﻿using System.Activities;
+using System.Activities;
 using System.Activities.Statements;
 using System.Activities.Validation;
 
 namespace UiPathTeam.Activities
 {
+    [DisplayName("While Break")]
     public class WhileBreak : NativeActivity
     {
 

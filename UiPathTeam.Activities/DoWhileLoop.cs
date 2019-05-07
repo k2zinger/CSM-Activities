@@ -5,8 +5,8 @@ using System.Windows.Markup;
 
 namespace UiPathTeam.Activities
 {
-    [ContentProperty("Body"), DisplayName("While Loop")]
-    public class WhileLoop : NativeActivity
+    [ContentProperty("Body"), DisplayName("Do While Loop")]
+    public class DoWhileLoop : NativeActivity
     {
 
         #region Properties
@@ -23,13 +23,13 @@ namespace UiPathTeam.Activities
 
         #region CodeActivity
 
-        public WhileLoop()
+        public DoWhileLoop()
         {
             Condition = null;
             Body = new ActivityAction
             {
                 DisplayName = "Body",
-                Handler = new Sequence { DisplayName = "Do" }
+                //Handler = new Sequence { DisplayName = "Do" }
             };
         }
 
@@ -40,6 +40,7 @@ namespace UiPathTeam.Activities
 
             context.Properties.Add("ContinueBookmark", continueBookmark);
             context.Properties.Add("BreakBookmark", breakBookmark);
+            //context.ScheduleAction(Body, BodyCompletion, null);
             context.ScheduleActivity(Condition, ConditionCompletion);
         }
 

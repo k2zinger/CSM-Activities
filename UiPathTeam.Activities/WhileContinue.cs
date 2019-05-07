@@ -1,9 +1,10 @@
-﻿using System.Activities;
+using System.Activities;
 using System.Activities.Statements;
 using System.Activities.Validation;
 
 namespace UiPathTeam.Activities
 {
+    [DisplayName("While Continue")]
     public class WhileContinue : NativeActivity
     {
 
