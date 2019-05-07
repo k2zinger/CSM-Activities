@@ -9,6 +9,9 @@ namespace UiPathTeam.Activities.Design
         {
             var builder = new AttributeTableBuilder();
 
+            // Designers for DoWhileLoop
+            builder.AddCustomAttributes(typeof(DoWhileLoop), new DesignerAttribute(typeof(DoWhileLoopActivityDesigner)));
+
             // Designers for WhileLoop
             builder.AddCustomAttributes(typeof(WhileLoop), new DesignerAttribute(typeof(WhileLoopActivityDesigner)));
 

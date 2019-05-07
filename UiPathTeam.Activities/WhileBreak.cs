@@ -1,4 +1,4 @@
-using System.Activities;
+﻿using System.Activities;
 using System.Activities.Statements;
 using System.Activities.Validation;
 
@@ -64,7 +64,7 @@ namespace UiPathTeam.Activities
                                 Argument = parent,
                                 Handler = new If()
                                 {
-                                    Condition = new InArgument<bool>((env) => object.Equals(parent.Get(env).GetType(),typeof(WhileLoop))),
+                                    Condition = new InArgument<bool>((env) => (object.Equals(parent.Get(env).GetType(),typeof(DoWhileLoop)) || object.Equals(parent.Get(env).GetType(),typeof(WhileLoop)))),
                                     Then = new Assign<bool>
                                     {
                                         Value = true,
@@ -76,7 +76,7 @@ namespace UiPathTeam.Activities
                         new AssertValidation
                         {
                             Assertion = new InArgument<bool>(result),
-                            Message = new InArgument<string> ("WhileBreak has to be inside a WhileLoop activity"),
+                            Message = new InArgument<string> ("WhileBreak has to be inside a DoWhileLoop or WhileLoop activity"),
                         }
                     }
                     }

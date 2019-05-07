@@ -47,6 +47,7 @@
     <Reference Include="System.Drawing" />
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Activities" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xaml" />
     <Reference Include="System.Xml" />
@@ -55,6 +56,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DesignerMetadata.cs" />
+    <Compile Include="DoWhileLoopActivityDesigner.xaml.cs">
+      <DependentUpon>DoWhileLoopActivityDesigner.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WhileLoopActivityDesigner.xaml.cs">
       <DependentUpon>WhileLoopActivityDesigner.xaml</DependentUpon>
@@ -64,6 +68,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Page Include="DoWhileLoopActivityDesigner.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="WhileLoopActivityDesigner.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
