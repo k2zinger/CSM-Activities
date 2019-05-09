@@ -14,8 +14,7 @@
 	<tags>csm uipath studio excel</tags>
 	<releaseNotes>Excel GetColumnLabel</releaseNotes>
   </metadata>
-  <!--<files>-->
-    <!--<file src="$OutputPath$\*.*" target="lib\net461" />-->
-	<!--<file src="bin\Debug\*.dll" target="lib\net461" />
-  </files>-->
+  <files>
+    <file src="Microsoft Office\UiPathTeam.Excel.Activities\bin\Debug\UiPathTeam.Excel.Activities.dll" target="lib\net461" />
+  </files>
 </package>
