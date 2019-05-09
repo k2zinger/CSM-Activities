@@ -11,11 +11,10 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>UiPath Studio Activities written by CSMs</description>
     <copyright>Copyright 2019</copyright>
-	<tags>csm uipath studio excel core while break continue</tags>
-	<releaseNotes>WhileLoop with associated Break and Continue activities</releaseNotes>
+	<tags>csm uipath studio excel</tags>
+	<releaseNotes>Excel GetColumnLabel</releaseNotes>
   </metadata>
-  <!--<files>-->
-    <!--<file src="$OutputPath$\*.*" target="lib\net461" />-->
-	<!--<file src="bin\Debug\*.dll" target="lib\net461" />
-  </files>-->
+  <files>
+    <file src="Microsoft Office\UiPathTeam.Excel.Activities\bin\Debug\UiPathTeam.Excel.Activities.dll" target="lib\net461" />
+  </files>
 </package>

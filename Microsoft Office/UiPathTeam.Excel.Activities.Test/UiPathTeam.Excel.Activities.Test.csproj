@@ -6,8 +6,8 @@
     <ProjectGuid>{A57239F8-0CE6-4F34-9FA1-81755517D9B2}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>UiPathTeam.Activities.Test</RootNamespace>
-    <AssemblyName>UiPathTeam.Activities.Test</AssemblyName>
+    <RootNamespace>UiPathTeam.Excel.Activities.Test</RootNamespace>
+    <AssemblyName>UiPathTeam.Excel.Activities.Test</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -54,9 +54,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\UiPathTeam.Activities\UiPathTeam.Activities.csproj">
+    <ProjectReference Include="..\UiPathTeam.Excel.Activities\UiPathTeam.Excel.Activities.csproj">
       <Project>{d568bfa0-e6db-408e-a36f-62cb2d86ddd5}</Project>
-      <Name>UiPathTeam.Activities</Name>
+      <Name>UiPathTeam.Excel.Activities</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
