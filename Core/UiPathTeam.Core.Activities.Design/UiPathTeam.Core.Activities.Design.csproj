@@ -8,8 +8,8 @@
     <ProjectGuid>{925413D5-D52A-4885-A35C-F602E01F0045}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>UiPathTeam.Activities.Design</RootNamespace>
-    <AssemblyName>UiPathTeam.Activities.Design</AssemblyName>
+    <RootNamespace>UiPathTeam.Core.Activities.Design</RootNamespace>
+    <AssemblyName>UiPathTeam.Core.Activities.Design</AssemblyName>
     <ProjectTypeGuids>{3D9AD99F-2412-4246-B90B-4EAA41C64699};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <StartArguments>/client:"WcfTestClient.exe"</StartArguments>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
@@ -52,6 +52,15 @@
     <Reference Include="System.Xaml" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Xml.Linq" />
+    <Reference Include="UiPath.Activities.Contracts">
+      <HintPath>..\..\..\..\..\AppData\Local\UiPath\app-19.2.0\UiPath.Activities.Contracts.dll</HintPath>
+    </Reference>
+    <Reference Include="UiPath.System.Activities">
+      <HintPath>..\..\..\..\..\.nuget\packages\uipath.system.activities\18.4.2\lib\net461\UiPath.System.Activities.dll</HintPath>
+    </Reference>
+    <Reference Include="UiPath.System.Activities.Design">
+      <HintPath>..\..\..\..\..\.nuget\packages\uipath.system.activities\19.3.6996.29711\lib\net461\UiPath.System.Activities.Design.dll</HintPath>
+    </Reference>
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
@@ -73,14 +82,17 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="WhileLoopActivityDesigner.xaml">
-      <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\UiPathTeam.Activities\UiPathTeam.Activities.csproj">
-      <Project>{0589d58b-4328-4fe2-a300-1586768a3153}</Project>
-      <Name>UiPathTeam.Activities</Name>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\UiPathTeam.Core.Activities\UiPathTeam.Core.Activities.csproj">
+      <Project>{f5c79400-d70d-46ce-9a7d-855db7bebe2b}</Project>
+      <Name>UiPathTeam.Core.Activities</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

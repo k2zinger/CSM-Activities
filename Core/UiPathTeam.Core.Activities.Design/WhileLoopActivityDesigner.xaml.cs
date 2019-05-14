@@ -12,7 +12,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace UiPathTeam.Activities.Design
+namespace UiPathTeam.Core.Activities.Design
 {
     // Interaction logic for WhileLoopActivityDesigner.xaml
     public partial class WhileLoopActivityDesigner

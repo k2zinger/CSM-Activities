@@ -1,9 +1,8 @@
 ﻿using System.Activities;
-using System.Activities.Statements;
 using System.ComponentModel;
 using System.Windows.Markup;
 
-namespace UiPathTeam.Activities
+namespace UiPathTeam.Core.Activities
 {
     [ContentProperty("Body"), DisplayName("Do While Loop")]
     public class DoWhileLoop : NativeActivity
@@ -28,8 +27,7 @@ namespace UiPathTeam.Activities
             Condition = null;
             Body = new ActivityAction
             {
-                DisplayName = "Body",
-                //Handler = new Sequence { DisplayName = "Do" }
+                DisplayName = "Body"
             };
         }
 
@@ -40,8 +38,7 @@ namespace UiPathTeam.Activities
 
             context.Properties.Add("ContinueBookmark", continueBookmark);
             context.Properties.Add("BreakBookmark", breakBookmark);
-            //context.ScheduleAction(Body, BodyCompletion, null);
-            context.ScheduleActivity(Condition, ConditionCompletion);
+            context.ScheduleAction(Body, BodyCompletion, null);
         }
 
         #endregion
@@ -73,6 +70,19 @@ namespace UiPathTeam.Activities
         private void OnBreak(NativeActivityContext context, Bookmark bookmark, object value)
         {
             context.CancelChildren();
+        }
+
+        #endregion
+
+        #region CheckCondition
+
+        protected override void CacheMetadata(NativeActivityMetadata metadata)
+        {
+            base.CacheMetadata(metadata);
+            if(Condition == null)
+            {
+                metadata.AddValidationError($"Condition must be set before DoWhileLoop activity '{ DisplayName }' can be used.");
+            }
         }
 
         #endregion

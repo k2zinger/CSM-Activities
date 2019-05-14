@@ -3,7 +3,7 @@ using System.Activities.Statements;
 using System.ComponentModel;
 using System.Windows.Markup;
 
-namespace UiPathTeam.Activities
+namespace UiPathTeam.Core.Activities
 {
     [ContentProperty("Body"), DisplayName("While Loop")]
     public class WhileLoop : NativeActivity
@@ -72,6 +72,19 @@ namespace UiPathTeam.Activities
         private void OnBreak(NativeActivityContext context, Bookmark bookmark, object value)
         {
             context.CancelChildren();
+        }
+
+        #endregion
+
+        #region CheckCondition
+
+        protected override void CacheMetadata(NativeActivityMetadata metadata)
+        {
+            base.CacheMetadata(metadata);
+            if(Condition == null)
+            {
+                metadata.AddValidationError($"Condition must be set before WhileLoop activity '{ DisplayName }' can be used.");
+            }
         }
 
         #endregion

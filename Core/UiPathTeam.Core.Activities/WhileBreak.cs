@@ -3,10 +3,10 @@ using System.Activities.Statements;
 using System.ComponentModel;
 using System.Activities.Validation;
 
-namespace UiPathTeam.Activities
+namespace UiPathTeam.Core.Activities
 {
-    [DisplayName("While Continue")]
-    public class WhileContinue : NativeActivity
+    [DisplayName("While Break")]
+    public class WhileBreak : NativeActivity
     {
 
         #region Properties
@@ -19,30 +19,30 @@ namespace UiPathTeam.Activities
 
         protected override void Execute(NativeActivityContext context)
         {
-            Bookmark continueProperty = (Bookmark)context.Properties.Find("ContinueBookmark");
+            Bookmark breakProperty = (Bookmark)context.Properties.Find("BreakBookmark");
             Bookmark willNeverBeResumed = context.CreateBookmark();
-            var result = context.ResumeBookmark(continueProperty, willNeverBeResumed);
+            var result = context.ResumeBookmark(breakProperty, willNeverBeResumed);
         }
 
         #endregion
-        
+
         #region CheckParent
 
-        public WhileContinue()
+        public WhileBreak()
         {
             base.Constraints.Add(CheckParent());
         }
 
-        static Constraint CheckParent()
+        private static Constraint CheckParent()
         {
-            DelegateInArgument<WhileContinue> element = new DelegateInArgument<WhileContinue>();
+            DelegateInArgument<WhileBreak> element = new DelegateInArgument<WhileBreak>();
             DelegateInArgument<ValidationContext> context = new DelegateInArgument<ValidationContext>();
             Variable<bool> result = new Variable<bool>();
             DelegateInArgument<Activity> parent = new DelegateInArgument<Activity>();
 
-            return new Constraint<WhileContinue>
+            return new Constraint<WhileBreak>
             {
-                Body = new ActivityAction<WhileContinue, ValidationContext>
+                Body = new ActivityAction<WhileBreak, ValidationContext>
                 {
                     Argument1 = element,
                     Argument2 = context,
@@ -77,7 +77,7 @@ namespace UiPathTeam.Activities
                         new AssertValidation
                         {
                             Assertion = new InArgument<bool>(result),
-                            Message = new InArgument<string> ("WhileContinue has to be inside a DoWhileLoop or WhileLoop activity"),
+                            Message = new InArgument<string> ("WhileBreak has to be inside a DoWhileLoop or WhileLoop activity"),
                         }
                     }
                     }

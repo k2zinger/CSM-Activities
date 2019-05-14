@@ -1,7 +1,8 @@
 ﻿using System.Activities.Presentation.Metadata;
 using System.ComponentModel;
+using UiPathTeam.Core.Activities;
 
-namespace UiPathTeam.Activities.Design
+namespace UiPathTeam.Core.Activities.Design
 {
     public class DesignerMetadata : IRegisterMetadata
     {
