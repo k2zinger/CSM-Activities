@@ -11,10 +11,12 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>UiPath Studio Activities written by CSMs</description>
     <copyright>Copyright 2019</copyright>
-	<tags>csm uipath studio excel</tags>
-	<releaseNotes>Excel GetColumnLabel</releaseNotes>
+	<tags>csm uipath studio excel core do while loop break continue</tags>
+	<releaseNotes>DoWhileLoop and WhileLoop with Break and Continue</releaseNotes>
   </metadata>
   <files>
     <file src="Microsoft Office\UiPathTeam.Excel.Activities\bin\Debug\UiPathTeam.Excel.Activities.dll" target="lib\net461" />
+	<file src="Core\UiPathTeam.Core.Activities.Design\bin\Debug\UiPathTeam.Core.Activities.Design.dll" target="lib\net461" />
+	<file src="Core\UiPathTeam.Core.Activities.Design\bin\Debug\UiPathTeam.Core.Activities.dll" target="lib\net461" />
   </files>
 </package>
