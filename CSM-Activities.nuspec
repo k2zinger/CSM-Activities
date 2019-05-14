@@ -3,7 +3,7 @@
   <metadata>
     <id>CSM-Activities</id>
     <version>$appveyor_build_version$</version>
-    <title>$title$</title>
+    <title>CSM-Activities</title>
     <authors>Kristopher Kim</authors>
     <owners>kkim</owners>
     <projectUrl>https://github.com/k2zinger/CSM-Activities</projectUrl>
