@@ -15,6 +15,6 @@
 	<releaseNotes>Excel GetColumnLabel</releaseNotes>
   </metadata>
   <files>
-    <file src="Microsoft Office\UiPathTeam.Excel.Activities\bin\Debug\UiPathTeam.Excel.Activities.dll" target="lib\net461" />
+    <file src="Microsoft Office\UiPathTeam.MSExcel.Activities\bin\Debug\UiPathTeam.MSExcel.Activities.dll" target="lib\net461" />
   </files>
 </package>
