@@ -54,7 +54,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\UiPathTeam.Excel.Activities\UiPathTeam.Excel.Activities.csproj">
+    <ProjectReference Include="..\UiPathTeam.MSExcel.Activities\UiPathTeam.MSExcel.Activities.csproj">
       <Project>{d568bfa0-e6db-408e-a36f-62cb2d86ddd5}</Project>
       <Name>UiPathTeam.Excel.Activities</Name>
     </ProjectReference>

@@ -1,11 +1,11 @@
 using System.Reflection;
 using System.Runtime.InteropServices;
 
-[assembly: AssemblyTitle("UiPathTeam.Excel.Activities.Test")]
+[assembly: AssemblyTitle("UiPathTeam.MSExcel.Activities.Test")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("UiPathTeam.Excel.Activities.Test")]
+[assembly: AssemblyProduct("UiPathTeam.MSExcel.Activities.Test")]
 [assembly: AssemblyCopyright("Copyright ©  2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
