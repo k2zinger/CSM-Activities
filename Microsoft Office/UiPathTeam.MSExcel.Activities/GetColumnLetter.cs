@@ -3,7 +3,7 @@ using System.Activities;
 using System.ComponentModel;
 using System.Data;
 
-namespace UiPathTeam.Excel.Activities
+namespace UiPathTeam.MSExcel.Activities
 {
     [DisplayName("Get Column Letter")]
     public class GetColumnLetter : CodeActivity
