@@ -8,7 +8,6 @@
  xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib"
  xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib"
  xmlns:sd="clr-namespace:System.Data;assembly=System.Data"
- xmlns:uea="clr-namespace:UiPathTeam.Excel.Activities;assembly=UiPathTeam.Excel.Activities"
  xmlns:ui="http://schemas.uipath.com/workflow/activities"
  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
@@ -82,7 +81,7 @@
                 </InArgument>
               </ui:ExcelReadRange.Range>
             </ui:ExcelReadRange>
-            <uea:GetColumnLetter ColumnLetter="[Column_Letter]" ColumnName="[ColumnName]" DataTable="[DataTable]" DisplayName="Get Column Letter" sap2010:WorkflowViewState.IdRef="GetColumnLetter_3" />
+            <ui:GetColumnLetter ColumnLetter="[Column_Letter]" ColumnName="[ColumnName]" DataTable="[DataTable]" DisplayName="Get Column Letter" sap2010:WorkflowViewState.IdRef="GetColumnLetter_4" />
             <WriteLine DisplayName="Write Line" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="[&quot;Column Label: &quot; + Column_Letter]" />
             <ui:ForEachRow CurrentIndex="{x:Null}" DataTable="[DataTable]" DisplayName="For Each Row" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
               <ui:ForEachRow.Body>
@@ -108,12 +107,12 @@
         </ActivityAction>
       </ui:ExcelApplicationScope.Body>
     </ui:ExcelApplicationScope>
-    <sads:DebugSymbol.Symbol>d0JDOlxVc2Vyc1xLcmlzdG9waGVyIEtpbVxEb2N1bWVudHNcVWlQYXRoXEdldENvbHVtbkxldHRlclxNYWluLnhhbWwYQQNwDgIBAUIFbiACAQJCsAFCvAECAR9IC2sWAgEDSzxLSwIBBE4NVCECARpVDVXJAQIBE1YNVpUBAgEQVw1qHQIBBU48TkkCAR1RE1FCAgEcTqABTqgBAgEbVUxVWgIBGFVlVXICARZVL1VAAgEUVmRWkgECARFXPldLAgEOXRNnHgIBBmEVZSgCAQlmFWZ7AgEHYSxhagIBDWNIY1ICAQthvwFhxwECAQpmbGZ4AgEI</sads:DebugSymbol.Symbol>
+    <sads:DebugSymbol.Symbol>d0JDOlxVc2Vyc1xLcmlzdG9waGVyIEtpbVxEb2N1bWVudHNcVWlQYXRoXEdldENvbHVtbkxldHRlclxNYWluLnhhbWwYQANvDgIBAUEFbSACAQJBsAFBvAECAR9HC2oWAgEDSjxKSwIBBE0NUyECARpUDVTIAQIBE1UNVZUBAgEQVg1pHQIBBU08TUkCAR1QE1BCAgEcTaABTagBAgEbVEtUWQIBGFRkVHECARZULlQ/AgEUVWRVkgECARFWPlZLAgEOXBNmHgIBBmAVZCgCAQllFWV7AgEHYCxgagIBDWJIYlICAQtgvwFgxwECAQplbGV4AgEI</sads:DebugSymbol.Symbol>
   </Sequence>
   <sap2010:WorkflowViewState.ViewStateManager>
     <sap2010:ViewStateManager>
       <sap2010:ViewStateData Id="ExcelReadRange_1" sap:VirtualizedContainerService.HintSize="366,59" />
-      <sap2010:ViewStateData Id="GetColumnLetter_3" sap:VirtualizedContainerService.HintSize="366,22" />
+      <sap2010:ViewStateData Id="GetColumnLetter_4" sap:VirtualizedContainerService.HintSize="366,22" />
       <sap2010:ViewStateData Id="WriteLine_1" sap:VirtualizedContainerService.HintSize="366,61" />
       <sap2010:ViewStateData Id="ExcelReadCell_1" sap:VirtualizedContainerService.HintSize="314,59" />
       <sap2010:ViewStateData Id="WriteLine_2" sap:VirtualizedContainerService.HintSize="314,61" />
@@ -146,7 +145,7 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
-      <sap2010:ViewStateData Id="Main_1" sap:VirtualizedContainerService.HintSize="476,1130" />
+      <sap2010:ViewStateData Id="Main_1" sap:VirtualizedContainerService.HintSize="476,1170" />
     </sap2010:ViewStateManager>
   </sap2010:WorkflowViewState.ViewStateManager>
 </Activity>
