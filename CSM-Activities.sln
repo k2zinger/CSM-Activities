@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.271
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UiPathTeam.Excel.Activities", "Microsoft Office\UiPathTeam.Excel.Activities\UiPathTeam.Excel.Activities.csproj", "{D568BFA0-E6DB-408E-A36F-62CB2D86DDD5}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microsoft Office", "Microsoft Office", "{8C546906-78AA-43B2-B54F-BF78C09937F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UiPathTeam.Excel.Activities.Test", "Microsoft Office\UiPathTeam.Excel.Activities.Test\UiPathTeam.Excel.Activities.Test.csproj", "{A57239F8-0CE6-4F34-9FA1-81755517D9B2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UiPathTeam.MSExcel.Activities", "Microsoft Office\UiPathTeam.MSExcel.Activities\UiPathTeam.MSExcel.Activities.csproj", "{D568BFA0-E6DB-408E-A36F-62CB2D86DDD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UiPathTeam.MSExcel.Activities.Test", "Microsoft Office\UiPathTeam.MSExcel.Activities.Test\UiPathTeam.MSExcel.Activities.Test.csproj", "{A57239F8-0CE6-4F34-9FA1-81755517D9B2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{D378115A-1CA9-4519-9AD5-EA1764ACC1F4}"
 EndProject

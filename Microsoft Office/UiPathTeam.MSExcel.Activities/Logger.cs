@@ -1,6 +1,6 @@
 ﻿using System.Diagnostics;
 
-namespace UiPathTeam.Excel.Activities
+namespace UiPathTeam.MSExcel.Activities
 {
     internal class Logger
     {

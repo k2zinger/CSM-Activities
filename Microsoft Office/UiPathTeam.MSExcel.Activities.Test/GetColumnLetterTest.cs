@@ -1,6 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace UiPathTeam.Excel.Activities.Test
+namespace UiPathTeam.MSExcel.Activities.Test
 {
     [TestClass]
     public class GetColumnLetterTest

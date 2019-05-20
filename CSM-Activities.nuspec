@@ -2,8 +2,8 @@
 <package >
   <metadata>
     <id>CSM-Activities</id>
-    <version>$appveyor_build_version$</version>
-    <title>$title$</title>
+    <version>0</version>
+    <title>CSM-Activities</title>
     <authors>Kristopher Kim</authors>
     <owners>kkim</owners>
     <projectUrl>https://github.com/k2zinger/CSM-Activities</projectUrl>
@@ -15,7 +15,7 @@
 	<releaseNotes>DoWhileLoop and WhileLoop with Break and Continue</releaseNotes>
   </metadata>
   <files>
-    <file src="Microsoft Office\UiPathTeam.Excel.Activities\bin\Debug\UiPathTeam.Excel.Activities.dll" target="lib\net461" />
+    <file src="Microsoft Office\UiPathTeam.MSExcel.Activities\bin\Debug\UiPathTeam.MSExcel.Activities.dll" target="lib\net461" />
 	<file src="Core\UiPathTeam.Core.Activities.Design\bin\Debug\UiPathTeam.Core.Activities.Design.dll" target="lib\net461" />
 	<file src="Core\UiPathTeam.Core.Activities.Design\bin\Debug\UiPathTeam.Core.Activities.dll" target="lib\net461" />
   </files>
