@@ -1,20 +1,17 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>CSM-Activities</id>
-    <version>0</version>
-    <title>CSM-Activities</title>
+    <id>UiPathTeam.MSExcel.Activities</id>
+    <version>$appveyor_build_version$</version>
+    <title>$title$</title>
     <authors>Kristopher Kim</authors>
     <owners>kkim</owners>
     <projectUrl>https://github.com/k2zinger/CSM-Activities</projectUrl>
     <iconUrl>https://github.com/k2zinger/CSM-Activities/blob/master/CS-logo-icon.png?raw=true</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>UiPath Studio Activities written by CSMs</description>
+    <description>MSExcel Activities</description>
     <copyright>Copyright 2019</copyright>
-	<tags>csm uipath studio excel</tags>
-	<releaseNotes>Excel GetColumnLabel</releaseNotes>
+	<tags>excel</tags>
+	<releaseNotes>Excel GetColumnLetter</releaseNotes>
   </metadata>
-  <files>
-    <file src="Microsoft Office\UiPathTeam.MSExcel.Activities\bin\Debug\UiPathTeam.MSExcel.Activities.dll" target="lib\net461" />
-  </files>
 </package>
