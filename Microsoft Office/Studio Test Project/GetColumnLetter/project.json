@@ -7,7 +7,7 @@
     "UiPath.System.Activities": "[18.4.1]",
     "UiPath.Excel.Activities": "[2.4.6884.25683]",
     "UiPath.Mail.Activities": "[1.2.6863.29868]",
-    "CSM-Activities": "[1.0.0]"
+    "CSM-Activities": "[1.0.1]"
   },
   "schemaVersion": "3.2",
   "studioVersion": "18.4.1.0",
