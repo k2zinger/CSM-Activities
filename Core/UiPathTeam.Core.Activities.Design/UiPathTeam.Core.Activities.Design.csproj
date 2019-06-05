@@ -53,13 +53,13 @@
     <Reference Include="System.Xml" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="UiPath.Activities.Contracts">
-      <HintPath>..\..\..\..\..\AppData\Local\UiPath\app-19.2.0\UiPath.Activities.Contracts.dll</HintPath>
+      <HintPath>..\..\..\..\..\.nuget\packages\uipath.uiautomation.activities\18.4.1\build\UiPath.Activities.Contracts.dll</HintPath>
     </Reference>
     <Reference Include="UiPath.System.Activities">
-      <HintPath>..\..\..\..\..\.nuget\packages\uipath.system.activities\18.4.2\lib\net461\UiPath.System.Activities.dll</HintPath>
+      <HintPath>..\..\..\..\..\.nuget\packages\uipath.system.activities\18.4.1\lib\net461\UiPath.System.Activities.dll</HintPath>
     </Reference>
     <Reference Include="UiPath.System.Activities.Design">
-      <HintPath>..\..\..\..\..\.nuget\packages\uipath.system.activities\19.3.6996.29711\lib\net461\UiPath.System.Activities.Design.dll</HintPath>
+      <HintPath>..\..\..\..\..\.nuget\packages\uipath.system.activities\18.4.1\lib\net461\UiPath.System.Activities.Design.dll</HintPath>
     </Reference>
     <Reference Include="WindowsBase" />
   </ItemGroup>
