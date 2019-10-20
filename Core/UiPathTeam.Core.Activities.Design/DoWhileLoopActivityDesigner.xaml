@@ -1,0 +1,52 @@
+﻿<sap:ActivityDesigner x:Class="UiPathTeam.Core.Activities.Design.DoWhileLoopActivityDesigner"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:s="clr-namespace:System;assembly=mscorlib"
+    xmlns:sa="clr-namespace:System.Activities;assembly=System.Activities"
+    xmlns:sap="clr-namespace:System.Activities.Presentation;assembly=System.Activities.Presentation"
+    xmlns:sapv="clr-namespace:System.Activities.Presentation.View;assembly=System.Activities.Presentation"
+    xmlns:sapc="clr-namespace:System.Activities.Presentation.Converters;assembly=System.Activities.Presentation">
+
+    <sap:ActivityDesigner.Resources>
+        <sapc:ArgumentToExpressionConverter x:Key="ArgumentToExpressionConverter"/>
+        <DataTemplate x:Key="Collapsed">
+            <StackPanel>
+                <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontStyle="Italic" Foreground="#FF6D6D6D">Double-click to view</TextBlock>
+            </StackPanel>
+        </DataTemplate>
+        <DataTemplate x:Key="Expanded">
+            <StackPanel>
+                <Label>Body</Label>
+                <Border BorderThickness ="1" BorderBrush="LightGray">
+                    <sap:WorkflowItemPresenter
+                        AutomationProperties.AutomationId="Activity"
+                        IsDefaultContainer="true"
+                        Item="{Binding Path=ModelItem.Body.Handler, Mode=TwoWay}"
+                        HintText="Drop activity here"
+                        AllowedItemType="{x:Type sa:Activity}"
+                    />
+                </Border>
+                <Label>Condition</Label>
+                <sapv:ExpressionTextBox
+                    Expression="{Binding Path=ModelItem.Condition}"
+                    ExpressionType="s:Boolean"
+                    OwnerActivity="{Binding Path=ModelItem}"
+                    HintText="Enter a VB expression"
+                />
+        </StackPanel>
+        </DataTemplate>
+        <Style x:Key="ExpandOrCollapsedStyle" TargetType="{x:Type ContentPresenter}">
+            <Setter Property="ContentTemplate" Value="{DynamicResource Collapsed}"/>
+            <Style.Triggers>
+                <DataTrigger Binding="{Binding Path=ShowExpanded}" Value="true">
+                    <Setter Property="ContentTemplate" Value="{DynamicResource Expanded}"/>
+                </DataTrigger>
+            </Style.Triggers>
+        </Style>
+    </sap:ActivityDesigner.Resources>
+
+    <StackPanel>
+        <ContentPresenter Style="{DynamicResource ExpandOrCollapsedStyle}" Content="{Binding}" />
+    </StackPanel>
+
+</sap:ActivityDesigner>

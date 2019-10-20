@@ -2,8 +2,8 @@
 <package >
   <metadata>
     <id>UiPathTeam.MSExcel.Activities</id>
-    <version>$appveyor_build_version$</version>
-    <title>$title$</title>
+    <version>$msexcel_build_version$</version>
+    <title>UiPathTeam.MSExcel.Activities</title>
     <authors>Kristopher Kim</authors>
     <owners>kkim</owners>
     <projectUrl>https://github.com/k2zinger/CSM-Activities</projectUrl>
