@@ -5,7 +5,7 @@ using System.Windows.Markup;
 
 namespace UiPathTeam.Core.Activities
 {
-    [ContentProperty("Body"), DisplayName("While Loop")]
+    [ContentProperty("Body"), DisplayName("While Loop"), Description("While loop with an associated Break (While Break) and Continue (While Continue)")]
     public class WhileLoop : NativeActivity
     {
 

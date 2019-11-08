@@ -5,7 +5,7 @@ using System.Activities.Validation;
 
 namespace UiPathTeam.Core.Activities
 {
-    [DisplayName("While Break")]
+    [DisplayName("While Break"), Description("Break out of a Do While Loop or a While Loop, ending the execution of that loop")]
     public class WhileBreak : NativeActivity
     {
 
