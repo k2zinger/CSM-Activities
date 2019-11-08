@@ -5,7 +5,7 @@ using System.Activities.Validation;
 
 namespace UiPathTeam.Core.Activities
 {
-    [DisplayName("While Continue")]
+    [DisplayName("While Continue"), Description("Stop the current loop iteration of a Do While Loop or a While Loop and continue to the next loop iteration")]
     public class WhileContinue : NativeActivity
     {
 
