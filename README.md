@@ -1,4 +1,4 @@
-# CSM-Activities
+# [CSM-Activities](https://connect.uipath.com/profile/kristopher-kim/components)
 [![Build status](https://ci.appveyor.com/api/projects/status/pvwmaie8e6si2xmx/branch/master?svg=true)](https://ci.appveyor.com/project/k2zinger/csm-activities/branch/master)
 A collection of Activities for UiPath Studio
 
