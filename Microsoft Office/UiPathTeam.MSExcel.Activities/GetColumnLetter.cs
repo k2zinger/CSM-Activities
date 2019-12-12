@@ -5,7 +5,7 @@ using System.Data;
 
 namespace UiPathTeam.MSExcel.Activities
 {
-    [DisplayName("Get Column Letter")]
+    [DisplayName("Get Column Letter"), Description("Get the Column Letter within an Excel Worksheet by providing a DataTable and Column Name (case sensitive)")]
     public class GetColumnLetter : CodeActivity
     {
         #region Properties
