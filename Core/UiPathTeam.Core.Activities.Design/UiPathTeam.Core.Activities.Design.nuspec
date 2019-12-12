@@ -6,9 +6,10 @@
     <title>UiPathTeam.Core.Activities</title>
     <authors>Kristopher Kim</authors>
     <owners>kkim</owners>
-    <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectUrl>https://github.com/k2zinger/CSM-Activities</projectUrl>
     <iconUrl>http://www.uipath.com/hubfs/Logos/uipath-nuget-logo.png</iconUrl>
+	<requireLicenseAcceptance>true</requireLicenseAcceptance>
+	<licenseUrl>https://www.uipath.com/hubfs/legalspot/UiPath_Activity_License_Agreement.pdf</licenseUrl>
     <description>While and DoWhile with Break and Continue Core Activities</description>
     <releaseNotes>WhileLoop, DoWhileLoop, WhileBreak, and WhileContinue</releaseNotes>
 	<copyright>Copyright 2019</copyright>

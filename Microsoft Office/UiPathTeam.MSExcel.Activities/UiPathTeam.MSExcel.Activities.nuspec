@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<package >
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>UiPathTeam.MSExcel.Activities</id>
     <version>$msexcel_build_version$</version>
@@ -7,11 +7,12 @@
     <authors>Kristopher Kim</authors>
     <owners>kkim</owners>
     <projectUrl>https://github.com/k2zinger/CSM-Activities</projectUrl>
-    <iconUrl>https://github.com/k2zinger/CSM-Activities/blob/master/CS-logo-icon.png?raw=true</iconUrl>
-    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<iconUrl>http://www.uipath.com/hubfs/Logos/uipath-nuget-logo.png</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+	<licenseUrl>https://www.uipath.com/hubfs/legalspot/UiPath_Activity_License_Agreement.pdf</licenseUrl>
     <description>MSExcel Activities</description>
-    <copyright>Copyright 2019</copyright>
+    <releaseNotes>Excel GetColumnLetter</releaseNotes>
+	<copyright>Copyright 2019</copyright>
 	<tags>excel</tags>
-	<releaseNotes>Excel GetColumnLetter</releaseNotes>
   </metadata>
 </package>
