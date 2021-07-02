@@ -1,11 +1,12 @@
-﻿using System.Activities;
+﻿using System;
+using System.Activities;
 using System.Activities.Statements;
 using System.ComponentModel;
 using System.Activities.Validation;
 
 namespace UiPathTeam.Core.Activities
 {
-    [DisplayName("While Break"), Description("Break out of a Do While Loop or a While Loop, ending the execution of that loop")]
+    [DisplayName("While Break"), Description("Break out of a Do While Loop or a While Loop, ending the execution of that loop"), Obsolete("Break and Continue activities within While/Do While loops have been integrated into 2020.4", false)]
     public class WhileBreak : NativeActivity
     {
 

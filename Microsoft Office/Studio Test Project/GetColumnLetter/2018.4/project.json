@@ -1,13 +1,12 @@
 {
   "name": "GetColumnLetter",
-  "description": "GetColumnLetter",
+  "description": "GetColumnLetter 2018.4",
   "main": "Main.xaml",
   "dependencies": {
-    "UiPath.UIAutomation.Activities": "[18.4.2]",
-    "UiPath.System.Activities": "[18.4.1]",
     "UiPath.Excel.Activities": "[2.4.6884.25683]",
-    "UiPath.Mail.Activities": "[1.2.6863.29868]",
-    "UiPathTeam.MSExcel.Activities": "[1.0.1]"
+	"UiPath.System.Activities": "[18.4.1]",
+	"UiPath.UIAutomation.Activities": "[18.4.2]",
+    "UiPathTeam.MSExcel.Activities": "[1.0.3]"
   },
   "schemaVersion": "3.2",
   "studioVersion": "18.4.1.0",
