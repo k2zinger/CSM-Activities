@@ -12,7 +12,7 @@
 	<licenseUrl>https://www.uipath.com/hubfs/legalspot/UiPath_Activity_License_Agreement.pdf</licenseUrl>
     <description>MSExcel Activities</description>
     <releaseNotes>Excel GetColumnLetter</releaseNotes>
-	<copyright>Copyright 2019</copyright>
+	<copyright>Copyright 2021</copyright>
 	<tags>excel</tags>
   </metadata>
 </package>
