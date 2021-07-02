@@ -1,11 +1,12 @@
-﻿using System.Activities;
+﻿using System;
+using System.Activities;
 using System.Activities.Statements;
 using System.ComponentModel;
 using System.Windows.Markup;
 
 namespace UiPathTeam.Core.Activities
 {
-    [ContentProperty("Body"), DisplayName("While Loop"), Description("While loop with an associated Break (While Break) and Continue (While Continue)")]
+    [ContentProperty("Body"), DisplayName("While Loop"), Description("While loop with an associated Break (While Break) and Continue (While Continue)"), Obsolete("Break and Continue activities within While/Do While loops have been integrated into 2020.4", false)]
     public class WhileLoop : NativeActivity
     {
 

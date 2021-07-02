@@ -1,11 +1,12 @@
-﻿using System.Activities;
+﻿using System;
+using System.Activities;
 using System.Activities.Statements;
 using System.ComponentModel;
 using System.Activities.Validation;
 
 namespace UiPathTeam.Core.Activities
 {
-    [DisplayName("While Continue"), Description("Stop the current loop iteration of a Do While Loop or a While Loop and continue to the next loop iteration")]
+    [DisplayName("While Continue"), Description("Stop the current loop iteration of a Do While Loop or a While Loop and continue to the next loop iteration"), Obsolete("Break and Continue activities within While/Do While loops have been integrated into 2020.4", false)]
     public class WhileContinue : NativeActivity
     {
 
