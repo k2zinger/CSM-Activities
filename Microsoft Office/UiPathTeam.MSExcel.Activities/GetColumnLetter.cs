@@ -12,12 +12,12 @@ namespace UiPathTeam.MSExcel.Activities
 
         [Category("Input"), Description("Name of Column (exact match)")]
         [RequiredArgument]
-        [OverloadGroup("G1")]
+        [OverloadGroup("ColumnName")]
         public InArgument<string> ColumnName { get; set; }
 
         [Category("Input"), Description("Index of Column (starting with index 1)")]
         [RequiredArgument]
-        [OverloadGroup("G2")]
+        [OverloadGroup("ColumnNumber")]
         public InArgument<int> ColumnNumber { get; set; }
 
         [Category("Input"), Description("DataTable to obtain Column Letter from")]

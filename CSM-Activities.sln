@@ -1,19 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.271
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microsoft Office", "Microsoft Office", "{8C546906-78AA-43B2-B54F-BF78C09937F5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UiPathTeam.MSExcel.Activities", "Microsoft Office\UiPathTeam.MSExcel.Activities\UiPathTeam.MSExcel.Activities.csproj", "{D568BFA0-E6DB-408E-A36F-62CB2D86DDD5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UiPathTeam.MSExcel.Activities.Test", "Microsoft Office\UiPathTeam.MSExcel.Activities.Test\UiPathTeam.MSExcel.Activities.Test.csproj", "{A57239F8-0CE6-4F34-9FA1-81755517D9B2}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{D378115A-1CA9-4519-9AD5-EA1764ACC1F4}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UiPathTeam.Core.Activities", "Core\UiPathTeam.Core.Activities\UiPathTeam.Core.Activities.csproj", "{F5C79400-D70D-46CE-9A7D-855DB7BEBE2B}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UiPathTeam.Core.Activities.Design", "Core\UiPathTeam.Core.Activities.Design\UiPathTeam.Core.Activities.Design.csproj", "{925413D5-D52A-4885-A35C-F602E01F0045}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,14 +23,6 @@ Global
 		{A57239F8-0CE6-4F34-9FA1-81755517D9B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A57239F8-0CE6-4F34-9FA1-81755517D9B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A57239F8-0CE6-4F34-9FA1-81755517D9B2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F5C79400-D70D-46CE-9A7D-855DB7BEBE2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F5C79400-D70D-46CE-9A7D-855DB7BEBE2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F5C79400-D70D-46CE-9A7D-855DB7BEBE2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F5C79400-D70D-46CE-9A7D-855DB7BEBE2B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{925413D5-D52A-4885-A35C-F602E01F0045}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{925413D5-D52A-4885-A35C-F602E01F0045}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{925413D5-D52A-4885-A35C-F602E01F0045}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{925413D5-D52A-4885-A35C-F602E01F0045}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,8 +30,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{D568BFA0-E6DB-408E-A36F-62CB2D86DDD5} = {8C546906-78AA-43B2-B54F-BF78C09937F5}
 		{A57239F8-0CE6-4F34-9FA1-81755517D9B2} = {8C546906-78AA-43B2-B54F-BF78C09937F5}
-		{F5C79400-D70D-46CE-9A7D-855DB7BEBE2B} = {D378115A-1CA9-4519-9AD5-EA1764ACC1F4}
-		{925413D5-D52A-4885-A35C-F602E01F0045} = {D378115A-1CA9-4519-9AD5-EA1764ACC1F4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {89B4C98E-E05C-481F-B574-B4112B9499BF}
