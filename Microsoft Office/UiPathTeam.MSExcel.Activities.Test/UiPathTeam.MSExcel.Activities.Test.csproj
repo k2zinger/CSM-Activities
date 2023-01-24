@@ -25,13 +25,7 @@
     <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
 	<UseWindowsForms>true</UseWindowsForms>
-	<Authors>Kristopher Kim</Authors>
-	<Description>MSExcel Activities</Description>
-	<Copyright>Copyright $(year)</Copyright>
-	<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
-	<PackageLicenseUrl>https://www.uipath.com/hubfs/legalspot/UiPath_Activity_License_Agreement.pdf</PackageLicenseUrl>
-	<PackageIconUrl>http://www.uipath.com/hubfs/Logos/uipath-nuget-logo.png</PackageIconUrl>
-	<PackageProjectUrl>https://github.com/k2zinger/CSM-Activities</PackageProjectUrl>
+	<IsPackable>false</IsPackable>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
