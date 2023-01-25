@@ -3,11 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microsoft Office", "Microsoft Office", "{8C546906-78AA-43B2-B54F-BF78C09937F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UiPathTeam.MSExcel.Activities", "UiPathTeam.MSExcel.Activities\UiPathTeam.MSExcel.Activities.csproj", "{D568BFA0-E6DB-408E-A36F-62CB2D86DDD5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UiPathTeam.MSExcel.Activities", "Microsoft Office\UiPathTeam.MSExcel.Activities\UiPathTeam.MSExcel.Activities.csproj", "{D568BFA0-E6DB-408E-A36F-62CB2D86DDD5}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UiPathTeam.MSExcel.Activities.Test", "Microsoft Office\UiPathTeam.MSExcel.Activities.Test\UiPathTeam.MSExcel.Activities.Test.csproj", "{A57239F8-0CE6-4F34-9FA1-81755517D9B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UiPathTeam.MSExcel.Activities.Test", "UiPathTeam.MSExcel.Activities.Test\UiPathTeam.MSExcel.Activities.Test.csproj", "{A57239F8-0CE6-4F34-9FA1-81755517D9B2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,10 +24,6 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{D568BFA0-E6DB-408E-A36F-62CB2D86DDD5} = {8C546906-78AA-43B2-B54F-BF78C09937F5}
-		{A57239F8-0CE6-4F34-9FA1-81755517D9B2} = {8C546906-78AA-43B2-B54F-BF78C09937F5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {89B4C98E-E05C-481F-B574-B4112B9499BF}
