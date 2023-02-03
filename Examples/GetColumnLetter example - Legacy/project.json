@@ -1,9 +1,9 @@
 {
-  "name": "GetColumnLetter 2022.10 - Legacy",
-  "description": "GetColumnLetter 2022.10 - Legacy",
+  "name": "GetColumnLetter example - Legacy",
+  "description": "GetColumnLetter example - Legacy",
   "main": "Main.xaml",
   "dependencies": {
-    "UiPath.Excel.Activities": "[2.7.2]",
+    "UiPath.Excel.Activities": "[2.11.4]",
     "UiPath.System.Activities": "[22.10.1]",
     "UiPath.UIAutomation.Activities": "[22.10.1]",
     "UiPathTeam.MSExcel.Activities": "[1.0.8]"
