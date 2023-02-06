@@ -5,7 +5,7 @@ Gets the Column Letter from a spreadsheet
 
 
 ## Installation
-Studio -> Manage Packages -> Community -> (Search) Kristopher Kim -> pick the package(s) to install and click Install -> Save
+Studio -> Manage Packages -> Community -> (Search) UiPathTeam.MSExcel.Activities -> pick the package(s) to install and click Install -> Save
 
 ## Activities
 ### Microsoft Excel
